@@ -16,5 +16,10 @@ namespace SCIM_Email_Templates.Main_Forms
         {
             InitializeComponent();
         }
+
+        private void LoadComponents(object sender, EventArgs e)
+        {
+            this.Bounds = Screen.PrimaryScreen.WorkingArea;
+        }
     }
 }
