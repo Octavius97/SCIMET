@@ -52,8 +52,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Forms\NewTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Forms\NewTicket.Designer.cs">
+      <DependentUpon>NewTicket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main Forms\NewTicket.resx">
+      <DependentUpon>NewTicket.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +78,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Fonts\CascadiaCode.ttf" />
+    <None Include="Fonts\CascadiaCodePL.ttf" />
+    <None Include="Fonts\CascadiaMono.ttf" />
+    <None Include="Fonts\Montserrat.ttf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
